@@ -49,11 +49,11 @@ border: 1px solid #000;
 .container p{
     text-align: center;
 }
-@media screen and (min-width:500px) {
+@media screen and (max-width:500px) {
     .container{
         display: flex;
         margin: 0;
-        padding: 0;
+        padding: 1rem;
         flex-direction: column;
     }
     form{
