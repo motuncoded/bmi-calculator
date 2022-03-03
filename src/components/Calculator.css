@@ -51,7 +51,7 @@ border: 1px solid #000;
 }
 @media screen and (min-width:500px) and (max-width:768px) {
     .container{
-        width: 250px;
+        width: 30%;
         display: flex;
         margin: 0;
         padding: 1rem;
