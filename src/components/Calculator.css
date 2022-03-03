@@ -1,6 +1,7 @@
 .container{
     box-shadow: 0px 10px 30px #000000;
     padding: 1rem;
+    margin: 0;
     border-radius: 10px;
 }
 form{
@@ -36,7 +37,6 @@ input{
     padding: 10px 0;
     text-transform: capitalize;
 background-color: purple ;
-;
 border-radius: 8px;
 border: 1px solid #000;
 }
@@ -53,6 +53,7 @@ border: 1px solid #000;
     .container{
         display: flex;
         margin: 0;
+        padding: .5rem;
         flex-direction: column;
     }
     form{
